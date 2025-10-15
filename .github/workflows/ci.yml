@@ -26,4 +26,4 @@ jobs:
         run: python -m py_compile app.py
 
       - name: Import Flask app
-        run: python -c "import app; print('✅ Flask app imported successfully!')"
+        run: python -c "import app; print('Flask app imported successfully!')"
